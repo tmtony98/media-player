@@ -1,0 +1,18 @@
+==================json server crreation ============
+
+1.create a folder  in file manager
+2.inside server create a package.json using npm init -y
+3.install json server inordedr to run json file- npm i json-server
+4. create .gitignore file to ignore node modules
+5.create a index.js file
+6.add script for start for our server app in package.json file at node index.js
+7. create a json file(db.json) inordeer to store json data/resources
+8. define server for running json data in index.js
+    - import json server library
+    -create a server for running json data
+    -setting up path/route for db.json
+    //use middleware to convert every data to json
+    -//set up port number for running json server
+9.to run server :npm start /node index.js
+
+
